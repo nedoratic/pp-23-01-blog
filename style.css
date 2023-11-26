@@ -1,0 +1,58 @@
+/* =============== */
+/* === GENERAL === */
+/* =============== */
+
+:root {
+	--color-1-olive: #85837b;
+	--color-2-shiplap: #bdb6aa;
+	--color-3-gather: #ccc3b6;
+	--color-4-patio-green: #e7e6dc;
+	--color-5-true-white: #f5f6f2;
+	--color-6-black: #333333;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* ================== */
+/* === TYPOGRAPHY === */
+/* ================== */
+
+* {
+	font-family: "Lato", sans-serif;
+}
+
+.header__logo__title {
+	font-family: "Playfair Display", serif;
+	/* font-family: "Merriweather", serif; */
+}
+
+.header__navbar__list__item {
+	list-style: none;
+	padding-left: 2em;
+}
+
+.header__navbar__list__item__link {
+	text-decoration: none;
+	color: var(--color-6-black);
+}
+
+/* ============== */
+/* === LAYOUT === */
+/* ============== */
+
+.header,
+.header__navbar__list {
+	display: flex;
+	align-items: center;
+}
+
+.header {
+	justify-content: space-between;
+	width: 80%;
+	max-width: 1024px;
+	margin: 0 auto;
+}

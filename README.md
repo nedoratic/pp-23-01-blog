@@ -4,7 +4,7 @@
 
 ### Skills:
 
-macOS (Sonoma), CLI (Terminal, Zsh), Visual Studio Code, Git (GitHub), HTML, CSS, Responsive Web Design, BEM (Block Element Modifier)
+CLI (Terminal, Zsh), Visual Studio Code, Git (GitHub), HTML, CSS, Responsive Web Design, BEM (Block Element Modifier)
 
 ### Design:
 

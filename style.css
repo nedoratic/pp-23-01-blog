@@ -27,7 +27,12 @@
 
 .header__logo__title {
 	font-family: "Playfair Display", serif;
-	/* font-family: "Merriweather", serif; */
+	font-weight: 400;
+	color: var(--color-1-olive);
+}
+
+.header__logo__description {
+	color: var(--color-6-black);
 }
 
 .header__navbar__list__item {
@@ -43,6 +48,14 @@
 /* ============== */
 /* === LAYOUT === */
 /* ============== */
+
+body {
+	background: var(--color-5-true-white);
+}
+
+.container {
+	background: var(--color-4-patio-green);
+}
 
 .header,
 .header__navbar__list {

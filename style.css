@@ -28,14 +28,13 @@
 
 .header__logo__title {
 	font-family: "Playfair Display", serif;
-	font-size: 3rem;
 	font-weight: 100;
 	color: var(--color-1-olive);
 }
 
 .header__logo__description {
-	letter-spacing: 4.2px;
-	/* font-weight: 800; */
+	font-size: 0.8rem;
+	letter-spacing: 1.5px;
 	color: var(--color-2-shiplap);
 }
 
@@ -46,7 +45,15 @@
 
 .header__navbar__list__item__link {
 	text-decoration: none;
+	font-weight: 300;
+	padding-bottom: 0.3rem;
 	color: var(--color-7-black);
+}
+
+.header__navbar__list__item__link:hover,
+.header__navbar__list__item__link:active {
+	color: var(--color-1-olive);
+	border-bottom: 2px solid var(--color-1-olive);
 }
 
 /* ============== */

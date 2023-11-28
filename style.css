@@ -7,7 +7,7 @@
 	--color-2-shiplap: #bdb6aa;
 	--color-3-gather: #ccc3b6;
 	--color-4-patio-green: #e7e6dc;
-	--color-5-true-white: #f5f6f2;
+	--color-5-true-white: #f5f6f7;
 	--color-6-white: #ffffff;
 	--color-7-black: #333333;
 }
@@ -16,7 +16,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	/* border: 1px solid red; */
+	border: 1px solid red;
 }
 
 /* ================== */
@@ -28,15 +28,15 @@
 }
 
 .header__logo__title {
+	color: var(--color-1-olive);
 	font-family: "Playfair Display", serif;
 	font-weight: 100;
-	color: var(--color-1-olive);
 }
 
 .header__logo__description {
+	color: var(--color-2-shiplap);
 	font-size: 0.8rem;
 	letter-spacing: 1.5px;
-	color: var(--color-2-shiplap);
 }
 
 @media screen and (max-width: 530px) {
@@ -70,14 +70,15 @@
 }
 
 .header__navbar__list__item__link {
+	color: var(--color-7-black);
 	text-decoration: none;
 	font-weight: 300;
 	padding-bottom: 0.3em;
-	color: var(--color-7-black);
 }
 
 .header__navbar__list__item__link:hover,
-.header__navbar__list__item__link:active {
+.header__navbar__list__item__link:active,
+.header__navbar__list__item__link:focus {
 	color: var(--color-1-olive);
 	border-bottom: 2px solid var(--color-1-olive);
 }
@@ -90,13 +91,13 @@ body {
 	background: var(--color-6-white);
 }
 
-.container {
+.container--header {
 	background: var(--color-5-true-white);
 	padding: 3em;
 }
 
 @media screen and (max-width: 530px) {
-	.container {
+	.container--header {
 		padding: 1em;
 	}
 }
@@ -131,4 +132,9 @@ body {
 	.header {
 		flex-direction: column;
 	}
+}
+
+.container--main {
+	display: grid;
+	grid-template-columns: 73% 23%;
 }

@@ -8,7 +8,7 @@ CLI, Terminal, Zsh, VS Code, Git, GitHub, HTML, CSS
 
 ### Approach and Methodology
 
-Responsive Web Design, BEM Methodology
+Responsive Web Design, BEM (Block Element Modifier)
 
 ### Design:
 

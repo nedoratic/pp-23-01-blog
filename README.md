@@ -2,9 +2,13 @@
 
 ## Practice Project - 2023 - 01 - Blog
 
-### Skills:
+### Tools and Tech:
 
-CLI (Terminal, Zsh), Visual Studio Code, Git (GitHub), HTML, CSS, Responsive Web Design, BEM (Block Element Modifier)
+CLI, Terminal, Zsh, VS Code, Git, GitHub, HTML, CSS
+
+### Approach and Methodology
+
+Responsive Web Design, BEM Methodology
 
 ### Design:
 

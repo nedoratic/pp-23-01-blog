@@ -76,8 +76,9 @@
 	padding-bottom: 0.3em;
 }
 
-.header__navbar__list__item__link:hover,
+.header__navbar__list__item__link--active,
 .header__navbar__list__item__link:active,
+.header__navbar__list__item__link:hover,
 .header__navbar__list__item__link:focus {
 	color: var(--color-1-olive);
 	border-bottom: 2px solid var(--color-1-olive);
@@ -86,6 +87,8 @@
 /* ============== */
 /* === LAYOUT === */
 /* ============== */
+
+/* === HEADER === */
 
 body {
 	background: var(--color-6-white);
@@ -132,4 +135,25 @@ body {
 	.header {
 		flex-direction: column;
 	}
+}
+
+/* === MAIN === */
+
+.container--main {
+	width: 80%;
+	max-width: 1024px;
+	margin: 5em auto;
+}
+
+/* === FOOTER === */
+
+.container--footer {
+	background: var(--color-5-true-white);
+}
+
+.footer {
+	width: 80%;
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 3em 0;
 }

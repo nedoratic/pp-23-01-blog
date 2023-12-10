@@ -4,16 +4,8 @@
 
 ### Tools and Tech:
 
-CLI, Terminal, Zsh, VS Code, Git, GitHub, HTML, CSS
+CLI, Terminal, Zsh, Version Control, Git, GitHub, VS Code, HTML, CSS
 
 ### Approach and Methodology
 
 Responsive Web Design, BEM (Block Element Modifier)
-
-### Design:
-
-[Design](https://xd.adobe.com/spec/75d448ea-569a-4b7e-721b-9bbd3b2b97b9-03e5/grid)
-
-### Toutorial:
-
-[Tutorial](https://youtu.be/srvUrASNj0s)

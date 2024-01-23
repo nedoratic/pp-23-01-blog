@@ -2,7 +2,7 @@
 
 ## Tools and Tech
 
-• Terminal • Git • GitHub • VSC, HTML, CSS
+• Terminal • Git • GitHub • VSC • HTML • CSS
 
 ## Approach and Methodology
 
